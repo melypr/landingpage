@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: #1F2937;
+}
+
+.header {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px;
+    margin-bottom: 18px;
+    
+}
+
+img.logo {
+    display: flex;
+    flex-shrink: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px 
+}
+
+
+
+.links, ul, li, a {
+    list-style: none;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    gap: 12px;
+    font-size: 20px;
+}
+
+.awesome {
+    display: flex;
+    justify-content: space-between;
+    background: #1F2937;
+    justify-content: center;
+    gap: 60px;
+    }
+
+.left {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+ }
+
+ .cats {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+
+ .description {
+    font-size: 18px;
+    margin-bottom: 10px;
+ }
+
+ button.sign {
+    width: 100px;
+    padding: 8px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    border-color: #3882f6;
+ }
+
+img.allthree {
+    height: auto;
+    width: 300px;
+   
+}
