@@ -82,3 +82,33 @@ img.allthree {
     width: 300px;
    
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.images {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.one, .two, .three {
+    width: 150px;
+    height: auto;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mali, .mimo, .medu {
+    width: 200px;
+}
