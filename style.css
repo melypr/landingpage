@@ -80,6 +80,8 @@ img.logo {
 img.allthree {
     height: auto;
     width: 300px;
+    display: flex;
+    flex-shrink: 0;
    
 }
 
@@ -91,10 +93,9 @@ img.allthree {
 
 .images {
     display: flex;
-    flex: 1;
-    justify-content: center;
-    justify-content: space-around;
     text-align: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .one, .two, .three {
