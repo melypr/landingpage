@@ -139,3 +139,50 @@ img.allthree {
     font-size: 16px;
     text-align: end;
 }
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex: 1;
+}
+
+.container2 {
+    background-color: #3882f6;
+    display: flex;
+    margin: 100px;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 12px;
+
+
+}
+
+
+.left2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.click {
+    font-size: 14px;
+    color: white;
+}
+
+.right2 {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    background-color: #3882f6;
+    border-color:white;
+    padding: 8px 12px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
