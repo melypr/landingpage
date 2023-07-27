@@ -107,9 +107,35 @@ img.allthree {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .mali, .mimo, .medu {
     width: 200px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100PX;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: fit-content;
+}
+
+
+.text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.signature{
+    font-size: 16px;
+    text-align: end;
 }
